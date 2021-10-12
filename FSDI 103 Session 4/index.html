@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>JavaScript Session 4</title>
+</head>
+<body>
+    <div class="character-container">
+        <div class="img-container">
+            <img src="character.png" alt="Courage dog">
+        </div>
+        <div class="var-container">
+            <!--hungry, happiness, energy-->
+            <div>
+                <p>🍖 Hunger: <span id="petHunger">0</span></p>
+            </div>
+            <div>
+                <p>❤️ Happiness: <span id="petHappiness">0</span></p>
+            </div>
+            <div>
+                <p>🔋 Energy: <span id="petEnergy">0</span></p>
+            </div>
+        </div>
+    </div>
+    <div class="icons-container">
+            <!--feed, pet, play-->
+            <button id="feedBtn" onclick="feed();">🥩</button>
+            <button id="petBtn" onclick="pet();">🐾</button>
+            <button id="playBtn" onclick="play();">🏏</button>
+        </div>
+    <script src="videogame.js"></script>
+</body>
+</html>
